@@ -1,0 +1,102 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style-type: none;
+  font-family: "HK Grotesk Regular", sans-serif;
+}
+header {
+  position: relative;
+}
+nav {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+}
+.brand span {
+  display: inline-block;
+  padding: 1rem;
+  background: #da2912;
+  color: rgb(190, 29, 29);
+  font-size: 4rem;
+}
+nav ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+nav li {
+  margin: 2rem 2rem;
+}
+nav a {
+  font-size: 0.95rem;
+  text-transform: uppercase;
+  color: rgb(188, 20, 188);
+}
+.hero {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  height: 70vh;
+}
+.content {
+    background: #17171b;
+    color:rgba(224, 231, 7, 0.683)
+}
+.hero-images {
+  height: 70%;
+  margin-top: 60px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.content, {
+    padding-top: 60px;
+}
+.hero-desc {
+    margin-left: 6rem;
+    margin-top: 10rem;
+    padding: 2rem 8rem 2rem 2rem;
+}
+.hero-desc h1 {
+    margin-left: 2.5rem;
+    margin-top: 3rem;
+    padding: 1rem;
+}
+.hero-desc p {
+    margin-bottom: 1.3rem;
+    line-height: 1.5rem;
+}
+.hero-desc button {
+    padding: 1rem;
+    color:#da2912;
+    text-transform:uppercase;
+    background-color: rgb(238, 234, 17);
+    border: none;
+    border-radius: 0;
+    border-collapse: 0px;
+    font-weight: bold;
+}
+.hero-action{
+    margin-bottom: 3rem;
+}
+.food-grid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 0rem 1rem;
+}
+.food-images{
+    height: 80vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.food-grid-wrapper{
+    margin-top: 1.5rem;
+}
+.food-grid-wrapper h3{
+    margin-bottom: 2rem;
+}
